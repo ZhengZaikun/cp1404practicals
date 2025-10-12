@@ -1,15 +1,17 @@
 import random
+MIN_NUMBER = 1
+MAX_NUMBER = 45
 def main():
     number_of_lines = int(input("How many quick picks? "))
     total_picks = [generate_list_of_numbers() for number in range(number_of_lines)]
     print_results(total_picks)
 
-def generate_list_of_numbers():
+def generate_list_of_numbers(NUMBERS_PER_LIN = 6):
     numbers = []
-    for count in range(6):
-        numbers.append(random.randint(1, 45))
+    for count in range(NUMBERS_PER_LIN):
+        numbers.append(random.randint(MIN_NUMBER, MAX_NUMBER))
         while numbers[count] in numbers[0:count]:
-            numbers[count] = random.randint(1, 45)
+            numbers[count] = random.randint(MIN_NUMBER, MAX_NUMBER)
     numbers.sort()
     return numbers
 
