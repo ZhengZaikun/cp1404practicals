@@ -7,6 +7,7 @@ FILENAME = "subject_data.txt"
 
 
 def main():
+    """Read the file contents and convert it into a list to output detailed information of the subject"""
     data = load_data(FILENAME)
     print(data)
     display_information(data)
@@ -30,6 +31,7 @@ def load_data(filename):
     return data
 
 def display_information(data):
+    """Output detailed information about the subject"""
     for part in data:
         print(f"{part[0]} is taught by {part[1]} and has {part[2]} students")
 
