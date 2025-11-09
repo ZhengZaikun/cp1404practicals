@@ -1,8 +1,8 @@
 # Practical 07
 
-- This repository contains all practical works for the subject CP1404 at James Cook University.
+- This repository contains all the practical assignments for the James Cook University CP1404 course.
 - This repository is used for **2025 TR3** and created by **Zheng Zaikun**(student in JCU).
-- This repository is mainly used for Practicing pycharm skills.
+
 
 ## Useful Links
 [JCU CP1404 Programming Patterns Guide] (https://github.com/CP1404/Starter/wiki/Programming-Patterns)
@@ -10,11 +10,10 @@
 
 ## Clean Code Lessons Learned
 
-Below are the main lessons learned about writing clean code throughout this subject:
-- **Single Responsibility Principle (SRP):** Ensure that every function and class has only one task, keeping the code modular.
-- **Avoid Magic Values:** Use named constants (CONSTANTS) to replace numbers or strings hardcoded directly into the code (Magic Numbers/Values).
-- **Descriptive Naming:** Use meaningful variable and function names to improve code readability.
-- **Docstrings:** Write clear documentation strings for all functions, classes and methods in the codes.
+Here are the key lessons learned from this course regarding coding:
+- **Single Responsibility Principle (SRP):** Ensure that each function has only one function.
+- **Importance of Naming:** Every value is associated with its properties and should be named according to those properties.
+- **Error Correction:** Use the `try` function to perform error correction in various ways.
 
 ## Practical Content
 - [Practical 01] (https://github.com/ZhengZaikun/cp1404practicals/tree/master/prac_01)
