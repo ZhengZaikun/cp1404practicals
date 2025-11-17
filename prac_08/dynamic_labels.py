@@ -25,5 +25,4 @@ class DynamicLabels(App):
             self.root.ids.main.add_widget(temp_label)
 
 
-
 DynamicLabels().run()
